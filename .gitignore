@@ -1,0 +1,14 @@
+# Ignore node_modules directory, although not sure how we have a node modules directory in a python project?
+node_modules/
+
+# Ignore .env files
+.env
+.history/
+tradingmodel.code-workspace
+.ipynb_checkpoints/
+/terraform/.terraform
+/terraform/.terraform.lock.hcl
+/terraform/function/package
+*.log
+.ipynb_checkpoints
+__pycache__

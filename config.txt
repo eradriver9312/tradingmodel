@@ -1,0 +1,28 @@
+# LSTM Trading Model - Project Structure
+
+The code has been organized into the following modules:
+
+```
+lstm_trading_model/
+├── config.py                   # Configuration settings and hyperparameters
+├── data/
+│   ├── __init__.py
+│   ├── data_fetcher.py         # Data retrieval from Polygon API
+│   ├── dataset.py              # PyTorch dataset implementation
+│   └── feature_engineering.py  # Feature engineering and data processing
+├── models/
+│   ├── __init__.py
+│   ├── lstm_model.py           # LSTM model definition
+│   └── loss_functions.py       # Custom loss functions
+├── trading/
+│   ├── __init__.py
+│   ├── signal_generator.py     # Trading signal generation
+│   ├── evaluator.py            # Model and trade performance evaluation
+│   └── monitor.py              # Multi-ticker monitoring
+├── visualization/
+│   ├── __init__.py
+│   └── plotting.py             # Visualization functions
+├── utils.py                    # Utility functions and helper classes
+└── main.py                     # Main execution script
+```
+
